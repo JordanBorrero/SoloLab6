@@ -1,7 +1,14 @@
-input.is-invalid {
-    border-color: #dc3545;
+body {
+    background-color: #f8f9fa;
 }
 
-input.is-valid {
-    border-color: #28a745;
+h2 {
+    margin-bottom: 20px;
+}
+
+#jsonOutput {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap; /* Allows the JSON to wrap */
 }
